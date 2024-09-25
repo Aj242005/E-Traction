@@ -66,5 +66,5 @@
     #f761a6,   /* Neon Pink */
     #b91646    /* Deep Magenta */
     );
-    color
+    transition: background 0.2s ease-in-out;
 }
