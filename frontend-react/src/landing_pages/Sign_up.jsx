@@ -3,6 +3,7 @@ import './Sign_up.css'
 
 function SignUp() {
     return <>
+
     </>
 }
 
