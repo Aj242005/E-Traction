@@ -30,7 +30,7 @@ function SignUp() {
                 <input type="password" placeholder="Password....." />
             </div>
         </div>
-        <div className="apna-s-forgot-password">Lost Password ? <span>Click Here!</span></div>
+        <div className="apna-s-forgot-password">Forget Password? <span>Click Here!</span></div>
         <div className="apna-s-submit-container">
             <div className="apna-s-submit">Sign Up</div>
             <div className="apna-s-submit">Log In</div>
