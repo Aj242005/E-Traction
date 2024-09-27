@@ -1,0 +1,100 @@
+
+.apna-s-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    background: linear-gradient(45deg,#360167,#6b0772,#af1281,#cf268a,#e65c9c,#fb8cab);
+    padding-bottom: 30px;
+}
+
+.apna-s-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.apna-s-text{
+    color:#feff37;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.apna-s-underline{
+    width: 95px;
+    height: 6px;
+    background: #feff37;
+    border-radius: 9px;
+}
+
+.apna-s-inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.apna-s-input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.apna-s-input img{
+    margin: 0px 30px;
+
+}
+.apna-s-input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.apna-s-forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: goldenrod;
+    font-size: 18px;
+
+}
+.apna-s-forgot-password span{
+    color: lime;
+    cursor: pointer;
+
+}
+
+.apna-s-submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;
+}
+
+.apna-s-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #ff9c12;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
