@@ -61,21 +61,9 @@ function Navbar(){
 
 
 
-                <form className="d-flex" role="search" style={{marginLeft:"400px",marginRight:"-120px"}}>
-                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button className="btn btn-outline-success" type="submit">Search</button>
-                </form>
-
-
-
-
-
-
-
-
 
                 <a className="apna-login" href="/Sign_up">
-                Sign-in
+                    Sign-in
                     (
                     <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" className="bi bi-person" viewBox="0 2 16 16">
                         <path
