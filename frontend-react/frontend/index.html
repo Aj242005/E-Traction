@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Charger Locator</title>
+    <link rel="stylesheet" href="style.css">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDswRH3LCHW81OSE1R6L_IJ6OzJvAD_w8&libraries=places"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Find Nearest EV Charger</h1>
+    <div id="map"></div>
+    <script>
+        // Initialize the map
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 12.9716, lng: 77.5946 }, // Example coordinates (Bengaluru)
+                zoom: 12,
+            });
+
+            const marker = new google.maps.Marker({
+                position: { lat: 12.9716, lng: 77.5946 }, // Example marker position
+                map: map,
+                title: 'EV Charger Location'
+            });
+
+            // You can add more logic here to fetch chargers from your backend and display them
+        }
+
+        window.onload = initMap;
+    </script>
+</body>
+</html>
