@@ -1,15 +1,16 @@
 {
-  "name": "frontend-react",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "ev-charger-backend",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
+<<<<<<< HEAD
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "dotenv": "^16.4.5",
@@ -35,4 +36,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+=======
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  }
+>>>>>>> 843ebcb78c6a4d511981c4c15e5e97b46420268b
 }
