@@ -131,3 +131,8 @@
     opacity: 1;
     transform: translateY(10px);
 }
+
+.light-nav{
+    background: #797979;
+    transition: background 0.5s ease;
+}

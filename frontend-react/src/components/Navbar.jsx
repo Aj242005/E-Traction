@@ -1,9 +1,18 @@
+import React, {useEffect,useState} from "react";
 import './Navbar.css'
 
 function Navbar(){
+
+    const [sticky, setSticky] = useState(false);
+    useEffect(() => {
+        window.addEventListener('scroll', ()=>{
+            window.scrollY > 50 ?setSticky(true):setSticky(false);
+        })
+    },[])
+
     return <>
 
-        <nav className="navbar bg-body-tertiary apna-navbar">
+        <nav className={'navbar bg-body-tertiary apna-navbar ${sticky? "light-nav" : ""}'}>
             <div className="container-fluid ">
                 <a className="navbar-brand fs-2  apna-main-logo text-info" href="/" target="" style={{margin: "10px", marginLeft: "3rem", fontFamily: "Comic Sans MS,cursive"}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="60" fill="currentColor" className="bi bi-lightning-charge-fill apna-logo" viewBox="2 2 16 16">
